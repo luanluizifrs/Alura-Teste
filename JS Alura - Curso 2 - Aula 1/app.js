@@ -1,5 +1,5 @@
 let listaNumSort = [];
-let quantidadeElementos = 100;
+let quantidadeElementos = 50;
 let numAleat = gerarNumAleat();
 let tentativa = 1;
 
@@ -10,7 +10,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirInicial() {
     exibirTextoNaTela('h1', 'Jogo do Número secreto da Alura');
-    exibirTextoNaTela('p', 'Escolher um número entre 1 e 100');
+    exibirTextoNaTela('p', 'Escolher um número entre 1 e 50');
 }
 exibirInicial();
 
